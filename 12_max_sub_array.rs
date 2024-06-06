@@ -1,3 +1,4 @@
+// Find the maximum subarray sum in Rust
 fn max_sub_array_sum(a: &[i32]) -> i32 {
     let mut curr_sum = a[0];
     let mut max_sum = a[0];

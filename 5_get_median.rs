@@ -1,3 +1,5 @@
+// Given a sorted array of integers, implement a function that returns the median of the array.
+
 fn get_median(arr: &[i32]) -> f64 {
     let n = arr.len();
     if n % 2 == 0 {

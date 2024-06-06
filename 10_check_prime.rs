@@ -1,3 +1,5 @@
+// Check if a number is prime in Rust
+
 use std::io::{self, Write};
 fn check_prime(n: i32) -> bool {
     if n <= 1 {

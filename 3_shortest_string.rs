@@ -1,3 +1,4 @@
+// Given a string of words, implement a function that returns the shortest word in the string.
 fn returns_shortest_string(text: &str) -> &str {
     let words: Vec<&str> = text.split_whitespace().collect();
     let mut shortest_word = words[0];

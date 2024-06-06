@@ -1,3 +1,4 @@
+// Given a sorted array of integers, implement a function that returns the index of the first occurrence of a given number.
 fn get_index_of_first_occurent(data: &[i32], value: i32) -> i32 {
     let mut start = 0;
     let mut end = data.len() as i32 - 1;

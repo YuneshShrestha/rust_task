@@ -1,3 +1,4 @@
+// Merge two sorted arrays in Rust
 fn merge(a: Vec<i32>, b: Vec<i32>) -> Vec<i32> {
     let mut result = Vec::new();
     let mut i = 0;

@@ -1,3 +1,4 @@
+// Reverse a string in Rust
 use std::io::{self, Write};
 fn reverse_string(s: &str) -> String {
     let mut chars: Vec<char> = s.chars().collect();

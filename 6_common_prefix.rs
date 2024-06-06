@@ -1,3 +1,4 @@
+// Implement a function that finds the longest common prefix of a given set of strings.
 fn find_longest_common_prefix<'a>(arr: &'a [&'a str]) -> &'a str {
     if arr.is_empty() {
         return "";

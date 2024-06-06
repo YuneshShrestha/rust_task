@@ -1,3 +1,4 @@
+// Implement a function that checks whether a given string is a palindrome or not
 use std::io::{self, Write};
 fn check_palindrome(s: &str) -> bool {
     let chars: Vec<char> = s.chars().collect();

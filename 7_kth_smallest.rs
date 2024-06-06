@@ -1,3 +1,6 @@
+// Implement a function that returns the kth smallest element in a given array.
+
+
 fn kth_smallest_element(mut arr: Vec<i32>, k: usize) -> i32 {
     arr.sort();
     arr[k - 1]
